@@ -32,10 +32,10 @@ reverseRight = PWMOutputDevice(REVERSE_RIGHT_PIN)
 ########################################
 ########################################
 ########################################
-def cmdIMU(msg)
+def cmdIMU(msg):
     value = msg.data
 
-def cmdLFUS(msg)
+def cmdLFUS(msg):
     value = msg.data
 
 def cmdVelCB(twist):
